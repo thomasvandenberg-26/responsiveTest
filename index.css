@@ -1,0 +1,175 @@
+@charset "UTF-8";
+body {
+  background-color: #121212;
+}
+
+@media screen and (max-width: 1920px) {
+  body #a_propos {
+    position: absolute;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    background-color: #A5FFC9;
+    width: 35%;
+    opacity: 70%;
+    border-radius: 15%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #a_propos h2 {
+    text-align: center;
+    font-family: "Hammersmith One";
+    font-size: 30px;
+    color: #0085B2;
+    margin-bottom: 4%;
+  }
+  body #a_propos #bio p {
+    text-align: center;
+    margin-top: 1%;
+    color: #121212;
+    font-family: 'Roboto';
+    font-size: 2ex;
+    margin-left: 6%;
+  }
+  body #a_propos h4 {
+    font-family: "Roboto";
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+  body #a_propos #logoIPI {
+    width: 13%;
+    margin-left: 42%;
+    margin-top: 3%;
+  }
+  body #a_propos a {
+    color: #0085B2;
+    font-size: 2ex;
+    font-family: 'Roboto';
+    margin-left: 5%;
+  }
+  body #a_propos #divertissement p {
+    font-size: 2ex;
+    margin-top: 1%;
+    color: #121212;
+    font-family: 'Roboto';
+    margin-left: 6%;
+    text-align: center;
+  }
+  body #a_propos #divertissement #test {
+    margin-top: 3%;
+  }
+  body #a_propos #divertissement #randonnée {
+    margin-top: 3%;
+  }
+  body #a_propos #divertissement #patisserie {
+    margin-top: 3%;
+  }
+}
+
+body #competences {
+  background-color: #0085B2;
+  width: 35%;
+  position: absolute;
+  margin-left: 58%;
+  margin-top: 5%;
+  border-radius: 15%;
+  opacity: 70%;
+}
+
+body #competences h2 {
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 3ex;
+  margin-left: 3%;
+  margin-top: 3%;
+  color: #A5FFC9;
+}
+
+body #competences h3 {
+  font-family: 'Roboto';
+  margin-left: 3%;
+  margin-top: 3%;
+  color: #A5FFC9;
+  font-size: 2.5ex;
+}
+
+body #competences #icones {
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+body #competences #icones #icones1 {
+  margin-top: 3%;
+  margin-left: 16%;
+  margin-bottom: 3%;
+}
+
+body #competences #icones #icones1 img {
+  width: 18%;
+}
+
+body #competences #icones #icones1 #java {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones1 #php {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones2 {
+  margin-top: 8%;
+  margin-left: 13%;
+  margin-bottom: 3%;
+}
+
+body #competences #icones #icones2 img {
+  width: 18%;
+  margin-left: 3%;
+}
+
+body #competences #icones #icones2 #python {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones2 #hcjs {
+  margin-left: 12%;
+}
+
+body #competences #icones #icones3 img {
+  width: 12%;
+  margin-left: 43%;
+  margin-top: 3%;
+}
+
+body #competences #icones #icones4 {
+  margin-left: 5%;
+}
+
+body #competences #icones #icones4 img {
+  width: 12%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+body #competences #icones #icones4 #vs {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+body #competences #icones #icones4 #wm {
+  margin-left: 15%;
+  width: 20%;
+}
+
+body #competences #icones #icones4 #android {
+  margin-left: 15%;
+  width: 14%;
+}
+
+body #competences #icones #icones5 img {
+  width: 12%;
+  margin-left: 43%;
+}
+/*# sourceMappingURL=index.css.map */
